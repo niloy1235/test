@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(./p/cover.jpg);
+    padding: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    margin-left: 5px;
+}
+
+header nav ul li a {
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: fixed;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.folder-box {
+    width: 360px;
+    height: 34px;
+    border: 1px solid #e8aa79;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    margin: 30px 20px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    background-color: rgb(41, 41, 41);
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 180px;
+}
+
+.h1-con {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(./p/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+h2 {
+    font-size: 27px;
+    text-align: center;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    color: rgb(53, 53, 53);
+}
+
+.h2-con {
+    display: flex;
+    justify-content: center;
+    background-color: #e8aa79;
+}
+
+h3 {
+    font-size: 18px;
+    color: #e8aa79;
+    font: 1em Sans-serif;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(41, 41, 41);
+}
+
+
+.social {
+    background-color: #e8aa79;
+    padding: 60px;
+    text-align: center;
+}
+
+.social a {
+    font-size: 30px;
+    font: Arial;
+    text-align: center;
+    color: #ff0000;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: rgb(41, 41, 41);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 23px;
+    margin: 15px;
+    font: Arial;
+    text-align: center;
+    color: #e8aa79;
+}

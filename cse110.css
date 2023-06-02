@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(./p/cover.jpg);
+    padding: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    margin-left: 5px;
+}
+
+header nav ul li a {
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: fixed;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.folder-box {
+    width: 350px;
+    height: 350px;
+    border: 1px solid #e8aa79;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    margin: 30px 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    background-color: rgb(41, 41, 41);
+}
+
+.folder-icon {
+    font-size: 180px;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.h1-con {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(./p/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+h2 {
+    font-family: Courier;
+    font-size: 27px;
+    text-align: center;
+    font-style: italic;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    color: #e8aa79
+}
+
+.h2-con {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(41, 41, 41);
+}
+
+h3 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font: Sans-serif;
+    color: #e8aa79;
+}
+
+.space {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(41, 41, 41);
+}
+
+.space::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 45%;
+    height: 1px;
+    background-color: #e8aa79;
+}
+
+.extra-space {
+    height: 25px;
+    background-color: rgb(41, 41, 41);
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(41, 41, 41);
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(41, 41, 41);
+}
+
+.footer p {
+    font-size: 23px;
+    margin: 15px;
+    font: Arial;
+    text-align: center;
+    color: #e8aa79;
+}
